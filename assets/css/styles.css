@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --text-black-color: #212121;
+  --text-white-color: #ffffff;
+  --text-grey-color: #757575;
+  --background-black-color: #2f303a;
+  --white-variation: #ffffff60;
+  --text-variation-gray: #75757520;
+  --button-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+a:focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+}
+nav {
+  font-size: 14px;
+  font-weight: 500;
+}
+.contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--text-grey-color);
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--text-white-color);
+  background-color: var(--background-black-color);
+}
+.section-1 {
+  background-color: var(--background-black-color);
+}
+button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  color: var(--text-black-color);
+  background-color: var(--button-background-color);
+  cursor: pointer;
+  font-family: inherit;
+}
+.section-2 h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.card-description {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+h2 {
+  font-size: 36px;
+  line-height: 42.19px;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.section-4 h3 {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.description {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+.card-title-2 {
+  color: var(--text-variation-gray);
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--text-white-color);
+}
+.contact-inf {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--white-variation);
+}
+.card-tittle {
+  font-weight: 500;
+}
+.card-title-image {
+  font-size: 18;
+  font-weight: 700;
+  line-height: 1.83;
+  letter-spacing: 0.06em%;
+}
+footer {
+  background-color: var(--background-black-color);
+}
+.principal-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: inherit;
+}
+button:hover {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
+}
+a,
+address {
+  color: var(--text-black-color);
+  text-decoration: none;
+  font-style: normal;
+}
+button:focus {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
+}
+.study.active {
+  color: var(--accent-color);
+}
+.portfolio.active{
+  color: var(--accent-color)
+}
